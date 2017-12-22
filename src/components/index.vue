@@ -28,6 +28,7 @@ export default {
 .app_right{
   /* float: left; */
   margin-left: 100px;
+  min-width: 500px;
   /* height: 100vh; */
 }
 .app_content{
@@ -40,7 +41,7 @@ export default {
 .app_memu{
   float: left;
   height: 100vh;
-  border: 1px solid green
+  background: #2e3946;
 }
 .clear:after {
   content: '';

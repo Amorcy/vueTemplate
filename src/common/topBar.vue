@@ -1,7 +1,6 @@
 <template>
   <div class="app_header">
-    <img class="app_logo" src="../assets/logo.png" alt="logo">
-    sad
+    Welcome To Amorcy's Space
   </div>
 </template>
 <script>
@@ -21,8 +20,11 @@ export default {
 </script>
 <style scoped>
 .app_header{
-  height: 100px;
-  border: 1px solid red;
+  height: 90px;
+  /* background-image: url('../assets/img/view.jpg');
+  background-size: 100% 100%; */
+  border-bottom: 1px solid gray;
+  font: 30px/90px 'weiruanyahei';
 }
 .app_logo{
   width: 60px;
